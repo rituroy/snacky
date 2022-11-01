@@ -17,3 +17,8 @@ A SNACSList object
 \description{
 SNACS stores data in a simple list-based data object called a SNACSList.
 }
+\examples{
+z <- SNACSList(x = 1, y = 2)
+print(z)
+
+}

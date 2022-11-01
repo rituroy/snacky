@@ -5,8 +5,13 @@
 #' @param x Matrix having mutation status as 0s and 1s
 #' @param y Matrix having hash values as numeric data
 #' @return A SNACSList object
+#'
+#' @examples
+#' z <- SNACSList(x = 1, y = 2)
+#' print(z)
+#'
 #' @export
-SNACSList=function(x,y) {
+SNACSList <- function(x,y) {
     snacsObj=list(x=x,y=y)
 
     invisible(snacsObj)
