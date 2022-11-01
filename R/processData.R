@@ -17,19 +17,6 @@ SNACSList <- function(x,y) {
     invisible(snacsObj)
 }
 
-
-print <- function(x,...) UseMethod("print")
-
-
-#' Default print method.
-#'
-#' @param x print object
-#' @param ... other parameters
-print.default <- function(x,...) {
-    base::print(x,...)
-}
-
-
 #' Prints SNACSList object.
 #'
 #' @param x SNACSList

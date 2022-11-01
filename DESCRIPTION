@@ -1,6 +1,6 @@
 Package: snacky
 Title: Snacky Analysis
-Version: 0.0.0.9001
+Version: 0.0.0.9002
 Authors@R: 
     person("Ritu", "Roy", role = c("aut", "cre"), email = "rituroy1111@gmail.com")
 Description: Functions to snacky snack analyze data.
